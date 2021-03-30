@@ -9,7 +9,8 @@ int main()
 	for(i=0;i<n;i++)
 		cin>>a[i];
 	for(i=1;i<n;i++)
-	{	count=0;
+	{	
+		count=0;
 		for(j=0;j<i;j++)
 		{
 			if(a[i]<a[j])
@@ -17,7 +18,6 @@ int main()
 			
 		}
 		output[i]=count;
-		
 	}
 	for(i=0;i<n;i++)
 	 cout<<output[i]<<" ";
